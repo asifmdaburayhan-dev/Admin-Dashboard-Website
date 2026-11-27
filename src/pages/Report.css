@@ -1,0 +1,160 @@
+
+.report-page {
+    width: 100%;
+}
+
+.report-title {
+    color: #172554;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.report-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.report-header {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 18px;
+}
+
+.report-header h2 {
+    color: #172554;
+    font-size: 21px;
+    margin: 0 0 8px;
+}
+
+.report-header p {
+    color: #64748b;
+    font-size: 14px;
+    margin: 0;
+}
+
+.report-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.report-table th {
+    background-color: #284dc7;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.report-table td {
+    padding: 15px;
+    color: #475569;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.report-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+.status-completed {
+    background-color: #dcfce7;
+    color: #15803d;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-pending {
+    background-color: #fef3c7;
+    color: #b45309;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+
+    .report-title {
+        font-size: 24px;
+    }
+
+    .report-container {
+        padding: 20px;
+    }
+
+    .report-header h2 {
+        font-size: 19px;
+    }
+
+    .report-table th,
+    .report-table td {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+
+    .report-title {
+        font-size: 21px;
+        margin-bottom: 18px;
+    }
+
+    .report-container {
+        padding: 15px;
+    }
+
+    .report-header {
+        margin-bottom: 18px;
+        padding-bottom: 15px;
+    }
+
+    .report-header h2 {
+        font-size: 18px;
+    }
+
+    .report-header p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .report-table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .report-table {
+        min-width: 650px;
+    }
+
+    .report-table th,
+    .report-table td {
+        padding: 11px;
+        font-size: 12px;
+    }
+
+    .status-completed,
+    .status-pending {
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+
+}

@@ -1,0 +1,177 @@
+
+.settings-page {
+    width: 100%;
+}
+
+.settings-title {
+    color: #172554;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.settings-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.settings-header {
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.settings-header h2 {
+    color: #172554;
+    font-size: 21px;
+    margin: 0 0 8px;
+}
+
+.settings-header p {
+    color: #64748b;
+    font-size: 14px;
+    margin: 0;
+}
+
+.settings-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.settings-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.settings-input-group label {
+    color: #334155;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.settings-input-group input,
+.settings-input-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    outline: none;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.settings-input-group input:focus,
+.settings-input-group select:focus {
+    border-color: #2563eb;
+}
+
+.notification-setting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #334155;
+    font-size: 14px;
+}
+
+.notification-setting input {
+    width: 17px;
+    height: 17px;
+    accent-color: #2563eb;
+}
+
+.save-button {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.save-button:hover {
+    background-color: #172554;
+}
+
+
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+
+    .settings-title {
+        font-size: 24px;
+    }
+
+    .settings-container {
+        padding: 22px;
+    }
+
+    .settings-form {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .settings-header h2 {
+        font-size: 19px;
+    }
+
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+
+    .settings-title {
+        font-size: 21px;
+        margin-bottom: 18px;
+    }
+
+    .settings-container {
+        padding: 16px;
+    }
+
+    .settings-header {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .settings-header h2 {
+        font-size: 18px;
+    }
+
+    .settings-header p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .settings-form {
+        grid-template-columns: 1fr;
+        gap: 17px;
+    }
+
+    .settings-input-group label {
+        font-size: 13px;
+    }
+
+    .settings-input-group input,
+    .settings-input-group select {
+        padding: 11px;
+        font-size: 13px;
+    }
+
+    .notification-setting {
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+
+    .save-button {
+        width: 100%;
+        padding: 12px;
+    }
+
+}

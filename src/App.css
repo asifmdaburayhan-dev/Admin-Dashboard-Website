@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f1f5f9;
+}
+
+/* .main-layout {
+    flex: 1;
+    min-width: 0; */
+    .main-layout {
+    margin-left: 250px;
+    flex: 1;
+    min-width: 0;
+}
+
+
+.main-content {
+    padding: 30px;
+}
